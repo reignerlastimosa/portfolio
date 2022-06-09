@@ -1,0 +1,189 @@
+.navbar{
+    width:19%;
+    height:100vh;
+    position:fixed;
+}
+
+.navbar .navbar-expand-lg{
+    width:100%;
+}
+
+#nav-body{
+    height:100%;
+    width:100%;
+    
+}
+
+ul{
+    
+}
+
+.profile{
+    text-align: center;
+}
+
+.social-links{
+    
+}
+
+#home{
+    height:100vh;
+    background-image: url("/img/bg.jpg");
+    background-position: center;
+}
+
+#about{
+    height: 100vh;
+   
+}
+
+#skills{
+    height:100vh;
+}
+
+#education{
+    height: 100vh;
+}
+
+#projects{
+    height: 200vh;
+}
+
+#project-categories{
+    width:100%;
+    
+}
+
+
+
+
+
+#card{
+    cursor:pointer;
+    border:2px solid red;
+    height:250px;
+    width:30%;
+    border-radius: 5px;
+}
+
+
+
+
+#hover{
+    background-color: yellowgreen;
+    height:100%;
+    width:100%;
+    display:none;
+}
+
+
+
+#skills-up{
+    
+    width:100%;
+    height:40vh;
+}
+
+#html{
+    width:30%;
+    text-align: center;
+}
+
+
+
+#javascript{
+    width:30%;
+    text-align: center;
+}
+#python{
+    width:30%;
+    text-align: center;
+}
+
+#mysql{
+    width:30%;
+    text-align: center;
+}
+
+#skills-down{
+   
+    width:100%;
+    height:40vh;
+}
+
+
+
+
+main{
+    margin-left:300px;
+    padding-right:5%;
+}
+
+li{
+    display:block;
+}
+
+
+
+
+
+@media (max-width: 991.98px) {
+    .navbar  {
+      width: 100%;
+      height:20%;
+    }
+
+    .profile{
+        display:none;
+    }
+
+    main{
+        margin-left:0;
+    }
+
+    #about-img{
+        display:none;
+    }
+
+    #projects{
+        height: 550vh;
+        display:flex;
+        
+        align-items: center;
+        flex-direction: column;
+    }
+
+   #project-categories{
+       width:60%;
+       
+       align-items: center;
+   }
+
+   #card{
+       width:100%;
+   }
+
+    #web-development{
+        flex-direction: column;
+       justify-content: space-between;
+       height:165vh;
+       
+    }
+
+    #machine-learning{
+        flex-direction: column;
+        height:165vh;
+        
+    }
+
+    #data-visualization{
+        flex-direction: column;
+        height:165vh;
+       
+    }
+
+    h4{
+        text-align: center;
+    }
+   
+  }
